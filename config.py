@@ -28,4 +28,4 @@ class Config(object):
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
-    MAX_RESULTS = "50"
+    MAX_RESULTS = "500"
